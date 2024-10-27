@@ -1,0 +1,32 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mygroupid</groupId>
+  <artifactId>myartifactid</artifactId>
+  <version>0.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <type>jar</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>8.0.1</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>com.lihaoyi</groupId>
+      <artifactId>mill-main-api_2.12</artifactId>
+      <version>0.5.1-21-9354e9</version>
+    </dependency>
+  </dependencies>
+</project>
